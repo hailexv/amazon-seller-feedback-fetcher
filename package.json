@@ -1,0 +1,17 @@
+{
+  "name": "amazon_feedback",
+  "version": "1.0.0",
+  "description": "get feedback from amazon seller",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.12",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.21.3"
+  }
+}
