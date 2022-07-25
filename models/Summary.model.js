@@ -11,7 +11,8 @@ const Summary = sequelize.define('summary', {
     ninety_days_summary: DataTypes.DOUBLE,
     twelve_months_summary: DataTypes.DOUBLE,
     lifetime_summary: DataTypes.DOUBLE,
-});
+    
+}, {timestamps: false});
 
 
 
