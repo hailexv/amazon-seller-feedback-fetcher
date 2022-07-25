@@ -162,7 +162,7 @@ async function fetchFeedback(sellerId, marketplaceID, sellerDbID){
 
     continueLoop = data.hasNextPage
 
-    await sleep(2000)
+    await sleep(2600)
 
     }
     
